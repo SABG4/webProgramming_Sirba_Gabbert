@@ -8,14 +8,36 @@
 
     <style>
 
+    .rundesbild {
+       width: 180px;  
+       heigh;  
+       border-radius: 100px; 
+       object-fit: cover;   
+       position: absolute;
+       top: 15px;
+       right: 50px;
+       box-shadow: 0 2px 8px #636262;
+            
+    }
+
+    .harp-picture {
+        display: block;
+        margin: 20px auto;
+        width: 220px;
+        height: auto;
+        margin-top: 5px;
+        border-radius: 5px;
+
+    }
+
     .box1 {
             background: #ecefc1;
             padding: 0.5rem;
             margin: 1.0rem 0;
             border-radius: 15px;
-            width: 315px;
+            width: 400px;
             box-shadow: 0 2px 8px rgba(0, 0, 0, 0.402);
-    
+            
         }
 
     .box2 {
@@ -23,27 +45,18 @@
             padding: 0.5rem;
             margin: 1.0rem 0;
             border-radius: 15px;
-            width: 315px;
+            width: 400px;
             box-shadow: 0 2px 8px rgba(0, 0, 0, 0.402);
     
         }
 
     .box3 {
-            background: #ceeff7;
+            background: #b8d1d8;
             padding: 0.5rem;
             margin: 0.5rem 0;
             border-radius: 15px;
             box-shadow: 0 2px 8px rgba(0, 0, 0, 0.402);
-    
-        }
-
-    .box4 {
-            background: #dbc7e7;
-            padding: 0.5rem;
-            margin: 0.5rem 0;
-            border-radius: 15px;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.402);
-    
+            margin-top: 30px;
         }
 
 
@@ -53,8 +66,27 @@
             margin: 0.5rem 0;
             border-radius: 15px;
             box-shadow: 0 2px 8px rgba(0, 0, 0, 0.402);
+            margin-top: 40px;
     
         }
+
+    .box5 {
+            background: #cfc6d5;
+            padding: 0.5rem;
+            margin: 0.5rem 0;
+            border-radius: 15px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.402);
+            margin-top: 40px;
+    
+        }
+
+    .boxes {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        flex-wrap: wrap;
+
+    }
 
     body{
         background-color:rgb(174, 207, 197);
@@ -67,9 +99,9 @@
     header{
         background-color:rgb(208, 217, 199);
         font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: larger;
         border-radius: 15px;
-        margin: 10px;;
-        padding: 6px;
+        padding: 10px 20px;
     
 
     }
@@ -97,45 +129,56 @@
 
     <header> 
     <h1>Sirba Anita | Harpist</h1> 
-        <p>My main concept and ideas for the final project.... </p>
+        <img src="images/facesirba.JPG" alt="Face" class="rundesbild">
+        <p>My main concept and ideas for the final project... </p>
     </header>
 
     
     <main>
-        <section>
-        <div class="box1">
-        <h3>Main Idea:</h3>
-        
-        
-        <p>For my final project I want to create a website that presents me as a harpist. Giving me the possibility to portray my . And ultimately with the goal to </p>
-        </div>
+
+
+        <section> 
+            <div class="boxes" >
+                <div class="box1"><h3 style="color:rgb(119, 122, 76);">Main Idea:</h3><p>For my final project I want to create a website that presents me as a harpist. Giving me the possibility to portray my journey. And ultimately also with the goal of offering a more organized decentralized booking service for different occasions. </p></div>
+
+            <img src="images/harpbottom.JPG" alt="harp from beneath" class ="harp-picture">  
+
+                <div class="box2"><h3 style="color:rgb(136, 91, 15);">Vibe:</h3> <p>Regarding the design of the website I am leaning towards an "abstract/interesting but organized" - design, not to linear/monotone, not to overwhelming.</p>
+            </div> 
+
+       
     
         </section>
 
-        <section>
-            <div class="box2">
-        <h3>Vibe:</h3>
         
-        <img src="im" alt="Harfe" width="600">
-    
-        <p>the vibe i'm going for with my website: abstrakt but still organized , not to linear/monotonue => boring</p>
-        </div>
-        </section>
 
         <section>
             <div class="box3">
-            <h3 style="color:rgb(124, 157, 172);">Functions/Content i want to include</h3>  
+            <h3 style="color:rgb(106, 137, 151);">Functions/Content i want to include</h3>  
     
             <p><ul>
                 <li>
-                    Repertoire
+                    About Me
+                
+                </li>
+                <li>
+                    Experience/Education
                     
                 </li>
                 <li>
-                    About Me
+                    Repertoire
                 </li>
+
                 <li>
-                    Hörbeispiele
+                    Audio Examples
+                </li>
+
+                <li>
+                    Occasions (Wedding, funeral, birthday, )
+                </li>
+
+                <li>
+                    Form for inquiries (interactive User inputs)
                 </li>
             </ul></p>
        
@@ -144,23 +187,44 @@
 
         <section>
             <div class="box4">
-        <h3>some pictures:</h3>
+        <h3 style="color:rgb(106, 71, 90);">some pictures:</h3>
         <p>to create proximity to the people that visit my website i want to share fotos of me and the harp </p>
         
-        <img src="im" alt="Harfe" width="600">
-    
-        <p>the vibe i'm going for with my website: abstrakt but still organized , not to linear/monotonue => boring</p>
+        <img src="images/harpsmallsirba.jpg" alt="Harfe" width="190">
+        <img src="images/IMG_2633.JPG" alt="harp at graduation" width="280">
+        <img src="images/wedding.jpg" alt="set up harp" width="160">
+        <img src="images/weddingguests.JPG" alt="wedding" width="287">
+
         </div>
         </section>
 
         <section>
-            <div class="box5">
-        <h3>inspo websites:</h3>
+        <div class="box5">
+            <h3>Inspo websites:</h3>
         
        
-        <p>the vibe i'm going for with my website: abstrakt but still organized , not to linear/monotonue => boring</p>
+            <p>These are some websites that I like (mostly graphic designers/artists):</p>
+            <ul>
+                <li>
+                    <a href="https://sebastiancuri.com/">Sebastian Curi </a>
+                </li>
+                <li>
+                <a href="https://manonlouart.com/home">Manon Louart</a>
+                </li>
+                <li>
+                <a href="https://carinalindmeier.com/">Carina Lindmeier</a>
+                </li>
+
+                <li>
+                <a href="https://omarcareaga.co.uk/">Omar Careaga</a>
+                </li>
+            </ul>
+
+
         </div>
         </section>
+
+
 
     </main>
 
