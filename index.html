@@ -23,11 +23,11 @@
         margin: 10px;
         padding: 30px;
         border-radius:30px;
+    }
     
     header{
         background-color: rgb(88, 112, 178);
         padding: 10px 30px;
-        
 
     }
 
@@ -37,7 +37,7 @@
         text-align: center;
         font-size: 10px;
         padding-bottom: 20px;
-        padding: top 10px;
+        padding-top: 10px;
     }
 
     nav ul li {
@@ -45,15 +45,18 @@
         text-transform:uppercase;
         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         display:inline;
-        padding: 30px;
+        padding: 3px
 
     }
 
     .picture {
-        position: relative;
-        top:0px;
-        right: 10px;
-        border-radius: 32px;
+        width: 300px;
+        display: flex;
+        border-radius: 12px;
+
+        justify-content: space-between; /* Schiebt Text nach links und Bild nach rechts */
+        align-items: flex-start;        /* Richtet beides ganz oben bündig aus */
+        gap: 30px;
     }
 
     ul{
@@ -123,7 +126,7 @@
                 <!--bilder hinzufügen-->
                 <section>
                 <div>
-                <img class="picture" src="assignments/images/IMG_2633.JPG" alt="" width="300">
+                <img class="picture" src="assignments/images/laptop.jpg" alt="" width="300">
                 </div>
                 </section>
 </main>
